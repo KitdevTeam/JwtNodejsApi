@@ -1,11 +1,16 @@
 {
-  "name": "backend",
-  "version": "1.0.0",
+  "name": "nodejsbasedrestapi",
+  "author":"nouha mb",
+  "license": "MIT",
+  "version": "2.0.0",
   "description": "server side rest api nodejs expressjs jwt cypress swagger pack",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
+  },
+  "engines": {
+    "node":"16.13.2"
   },
   "repository": {
     "type": "git",
@@ -27,8 +32,6 @@
     "json",
     "file"
   ],
-  "author": "Nouha18",
-  "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "chalk": "^5.0.1",
