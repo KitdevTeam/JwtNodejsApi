@@ -1,0 +1,10 @@
+{
+    "User": {
+      "dbConfig": {
+        "host": "localhost",
+        "port": 5984,
+        "dbName": "mongodb+srv://admin18:exz5dcSfHxPdbgzv@clusterreact.g07mr.mongodb.net/?retryWrites=true&w=majority"
+    }
+    
+    }
+  }

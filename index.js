@@ -1,4 +1,5 @@
 const dotenv = require("dotenv");
+//...
 // get config vars
 dotenv.config();
 const config = require('./src/setup/dbconfig');
@@ -55,7 +56,7 @@ const signIn = (req, res) => {
 
 app.post("/signin",  signIn);
 
-app.get('/api/v0.5', function (req, res) {
+app.get('/api/v2.5', function (req, res) {
     // Cookies that have not been signed
     console.log('Cookies: ', req.cookies)
   
@@ -79,7 +80,7 @@ app.get('/deletecookie', (req, res) => {
   res.clearCookie()
   res.send('Cookie has been deleted successfully');
 });
-const Port = process.env.PORT || 3000;
+const Port = process.env.PORT || 8080;
   app.listen(Port,(err,res)=>{
     console.log('listening on port :',Port);
   });
